@@ -1,0 +1,17 @@
+[project]
+name = "dita-rector-ai-agent"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Dita rector",email = "rectordita@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "chromadb (>=1.5.9,<2.0.0)",
+    "ollama (>=0.6.2,<0.7.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
